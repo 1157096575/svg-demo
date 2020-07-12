@@ -1,0 +1,1170 @@
+<svg id="mybg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1316" height="737" viewBox="0 0 1316 737">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #61d861;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #bfffbf;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill: red;
+        opacity: 0;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: red;
+        stroke-width: 3px;
+        opacity: 0;
+      }
+      #pointsblue .move{
+        -webkit-transition: all 1s;
+           -moz-transition: all 1s;
+            -ms-transition: all 1s;
+             -o-transition: all 1s;
+                transition: all 1s;
+        -webkit-animation: bluepoints 1s linear 1s infinite alternate;
+           -moz-animation: bluepoints 1s linear 1s infinite alternate;
+            -ms-animation: bluepoints 1s linear 1s infinite alternate;
+             -o-animation: bluepoints 1s linear 1s infinite alternate;
+                animation: bluepoints 1s linear 1s infinite alternate;
+      }
+      #pointsblue .move:nth-child(2n){
+        -webkit-animation: bluepoints2 1s linear 1s infinite alternate;
+           -moz-animation: bluepoints2 1s linear 1s infinite alternate;
+            -ms-animation: bluepoints2 1s linear 1s infinite alternate;
+             -o-animation: bluepoints2 1s linear 1s infinite alternate;
+                animation: bluepoints2 1s linear 1s infinite alternate;
+      }
+      #pointsyellow .move{
+        -webkit-transition: all 1s;
+           -moz-transition: all 1s;
+            -ms-transition: all 1s;
+             -o-transition: all 1s;
+                transition: all 1s;
+        -webkit-animation: yellowpoints 1s linear 1s infinite alternate;
+           -moz-animation: yellowpoints 1s linear 1s infinite alternate;
+            -ms-animation: yellowpoints 1s linear 1s infinite alternate;
+             -o-animation: yellowpoints 1s linear 1s infinite alternate;
+                animation: yellowpoints 1s linear 1s infinite alternate;
+      }
+      #pointsyellow .move:nth-child(2n){
+        -webkit-animation: yellowpoints2 1s linear 1s infinite alternate;
+           -moz-animation: yellowpoints2 1s linear 1s infinite alternate;
+            -ms-animation: yellowpoints2 1s linear 1s infinite alternate;
+             -o-animation: yellowpoints2 1s linear 1s infinite alternate;
+                animation: yellowpoints2 1s linear 1s infinite alternate;
+      }
+      #circles .cls-3{
+        -webkit-transition: all 5.6s;
+           -moz-transition: all 5.6s;
+            -ms-transition: all 5.6s;
+             -o-transition: all 5.6s;
+                transition: all 5.6s;
+                opacity: 0;
+                stroke: rgba(255,255,255,0.3);
+                stroke-width: 3px;
+                    vertical-align: middle;
+                    text-align:center;
+                    transform-origin: center;
+        -webkit-animation: runcircleinner 5.6s linear 1s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 1s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 1s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 1s infinite alternate;
+                animation: runcircleinner 5.6s linear 1s infinite alternate;
+      }
+      #circles .cls-4{
+        -webkit-transition: all 5.6s;
+           -moz-transition: all 5.6s;
+            -ms-transition: all 5.6s;
+             -o-transition: all 5.6s;
+                transition: all 5.6s;
+                opacity: 0;
+                transform-origin: center;
+
+      }
+      #circles #circleinner2{
+        -webkit-animation: runcircleinner 5.6s linear 1.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 1.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 1.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 1.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 1.2s infinite alternate;
+      }
+      #circles #circleinner3{
+        -webkit-animation: runcircleinner 5.6s linear 1.4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 1.4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 1.4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 1.4s infinite alternate;
+                animation: runcircleinner 5.6s linear 1.4s infinite alternate;
+      }
+      #circles #circleinner3{
+        -webkit-animation: runcircleinner 5.6s linear 1.6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 1.6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 1.6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 1.6s infinite alternate;
+                animation: runcircleinner 5.6s linear 1.6s infinite alternate;
+      }
+      #circles #circleinner4{
+        -webkit-animation: runcircleinner 5.6s linear 1.8s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 1.8s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 1.8s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 1.8s infinite alternate;
+                animation: runcircleinner 5.6s linear 1.8s infinite alternate;
+      }
+      #circles #circleinner5{
+        -webkit-animation: runcircleinner 5.6s linear 2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 2s infinite alternate;
+                animation: runcircleinner 5.6s linear 2s infinite alternate;
+      }
+      #circles #circleinner5{
+        -webkit-animation: runcircleinner 5.6s linear 2.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 2.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 2.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 2.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 2.2s infinite alternate;
+      }
+      #circles #circleinner6{
+        -webkit-animation: runcircleinner 5.6s linear 2.4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 2.4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 2.4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 2.4s infinite alternate;
+                animation: runcircleinner 5.6s linear 2.4s infinite alternate;
+      }
+      #circles #circleinner7{
+        -webkit-animation: runcircleinner 5.6s linear 2.6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 2.6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 2.6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 2.6s infinite alternate;
+                animation: runcircleinner 5.6s linear 2.6s infinite alternate;
+      }
+      #circles #circleinner8{
+        -webkit-animation: runcircleinner 5.6s linear 2.8s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 2.8s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 2.8s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 2.8s infinite alternate;
+                animation: runcircleinner 5.6s linear 2.8s infinite alternate;
+      }
+      #circles #circleinner8{
+        -webkit-animation: runcircleinner 5.6s linear 3s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 3s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 3s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 3s infinite alternate;
+                animation: runcircleinner 5.6s linear 3s infinite alternate;
+      }
+      #circles #circleinner9{
+        -webkit-animation: runcircleinner 5.6s linear 3.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 3.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 3.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 3.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 3.2s infinite alternate;
+      }
+      #circles #circleinner10{
+        -webkit-animation: runcircleinner 5.6s linear 3.4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 3.4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 3.4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 3.4s infinite alternate;
+                animation: runcircleinner 5.6s linear 3.4s infinite alternate;
+      }
+      #circles #circleinner11{
+        -webkit-animation: runcircleinner 5.6s linear 3.6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 3.6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 3.6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 3.6s infinite alternate;
+                animation: runcircleinner 5.6s linear 3.6s infinite alternate;
+      }
+      #circles #circleinner12{
+        -webkit-animation: runcircleinner 5.6s linear 3.8s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 3.8s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 3.8s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 3.8s infinite alternate;
+                animation: runcircleinner 5.6s linear 3.8s infinite alternate;
+      }
+      #circles #circleinner13{
+        -webkit-animation: runcircleinner 5.6s linear 4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 4s infinite alternate;
+                animation: runcircleinner 5.6s linear 4s infinite alternate;
+      }
+      #circles #circleinner14{
+        -webkit-animation: runcircleinner 5.6s linear 4.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 4.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 4.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 4.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 4.2s infinite alternate;
+      }
+      #circles #circleinner15{
+        -webkit-animation: runcircleinner 5.6s linear 4.4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 4.4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 4.4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 4.4s infinite alternate;
+                animation: runcircleinner 5.6s linear 4.4s infinite alternate;
+      }
+      #circles #circleinner16{
+        -webkit-animation: runcircleinner 5.6s linear 4.6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 4.6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 4.6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 4.6s infinite alternate;
+                animation: runcircleinner 5.6s linear 4.6s infinite alternate;
+      }
+      #circles #circleinner17{
+        -webkit-animation: runcircleinner 5.6s linear 4.8s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 4.8s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 4.8s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 4.8s infinite alternate;
+                animation: runcircleinner 5.6s linear 4.8s infinite alternate;
+      }
+      #circles #circleinner18{
+        -webkit-animation: runcircleinner 5.6s linear 5s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 5s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 5s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 5s infinite alternate;
+                animation: runcircleinner 5.6s linear 5s infinite alternate;
+      }
+      #circles #circleinner19{
+        -webkit-animation: runcircleinner 5.6s linear 5.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 5.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 5.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 5.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 5.2s infinite alternate;
+      }
+      #circles #circleinner20{
+        -webkit-animation: runcircleinner 5.6s linear 5.4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 5.4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 5.4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 5.4s infinite alternate;
+                animation: runcircleinner 5.6s linear 5.4s infinite alternate;
+      }
+      #circles #circleinner21{
+        -webkit-animation: runcircleinner 5.6s linear 5.6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 5.6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 5.6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 5.6s infinite alternate;
+                animation: runcircleinner 5.6s linear 5.6s infinite alternate;
+      }
+      #circles #circleinner22{
+        -webkit-animation: runcircleinner 5.6s linear 5.8s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 5.8s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 5.8s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 5.8s infinite alternate;
+                animation: runcircleinner 5.6s linear 5.8s infinite alternate;
+      }
+      #circles #circleinner23{
+        -webkit-animation: runcircleinner 5.6s linear 6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 6s infinite alternate;
+                animation: runcircleinner 5.6s linear 6s infinite alternate;
+      }
+      #circles #circleinner24{
+        -webkit-animation: runcircleinner 5.6s linear 6.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 6.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 6.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 6.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 6.2s infinite alternate;
+      }
+      #circles #circleinner25{
+        -webkit-animation: runcircleinner 5.6s linear 6.4s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 6.4s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 6.4s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 6.4s infinite alternate;
+                animation: runcircleinner 5.6s linear 6.4s infinite alternate;
+      }
+      #circles #circleinner26{
+        -webkit-animation: runcircleinner 5.6s linear 6.6s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 6.6s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 6.6s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 6.6s infinite alternate;
+                animation: runcircleinner 5.6s linear 6.6s infinite alternate;
+      }
+      #circles #circleinner27{
+        -webkit-animation: runcircleinner 5.6s linear 6.8s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 6.8s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 6.8s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 6.8s infinite alternate;
+                animation: runcircleinner 5.6s linear 6.8s infinite alternate;
+      }
+      #circles #circleinner28{
+        -webkit-animation: runcircleinner 5.6s linear 7s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 7s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 7s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 7s infinite alternate;
+                animation: runcircleinner 5.6s linear 7s infinite alternate;
+      }
+      #circles #circleinner29{
+        -webkit-animation: runcircleinner 5.6s linear 7.2s infinite alternate;
+           -moz-animation: runcircleinner 5.6s linear 7.2s infinite alternate;
+            -ms-animation: runcircleinner 5.6s linear 7.2s infinite alternate;
+             -o-animation: runcircleinner 5.6s linear 7.2s infinite alternate;
+                animation: runcircleinner 5.6s linear 7.2s infinite alternate;
+      }
+      @-webkit-keyframes runcircleinner{
+        0%{ 
+            opacity:0.8;
+            stroke-width: 3px;
+        }
+        3%{
+            opacity:1;
+            stroke-width: 5px;
+        }
+        70%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+        100%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+      } 
+      @-moz-keyframes runcircleinner{
+        0%{ 
+            opacity:0.8;
+            stroke-width: 3px;
+        }
+        3%{
+            opacity:1;
+            stroke-width: 5px;
+        }
+        70%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+        100%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+      } 
+      @-ms-keyframes runcircleinner{
+        0%{ 
+            opacity:0.8;
+            stroke-width: 3px;
+        }
+        3%{
+            opacity:1;
+            stroke-width: 5px;
+        }
+        70%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+        100%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+      } 
+      @-o-keyframes runcircleinner{
+        0%{ 
+            opacity:0.8;
+            stroke-width: 3px;
+        }
+        3%{
+            opacity:1;
+            stroke-width: 5px;
+        }
+        70%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+        100%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+      } 
+      @keyframes runcircleinner{
+        0%{ 
+            opacity:0.8;
+            stroke-width: 3px;
+        }
+        3%{
+            opacity:1;
+            stroke-width: 5px;
+        }
+        70%{
+          opacity:0.7;
+          stroke-width: 3px;
+        }
+        100%{
+          opacity:0.8;
+          stroke-width: 3px;
+        }
+      } 
+      @-webkit-keyframes bluepoints {
+        0% { fill: #23dff5; opacity:0.3;}
+        40% { fill: #924bfe; opacity:1;}
+        60% { fill: #23dff5; opacity:0.3;}
+        100% { fill: #23dff5; opacity:0.3;}
+      }
+      @-moz-keyframes bluepoints {
+        0% { fill: #23dff5; opacity:0.3;}
+        40% { fill: #924bfe; opacity:1;}
+        60% { fill: #23dff5; opacity:0.3;}
+        100% { fill: #23dff5; opacity:0.3;}
+      }
+      @-ms-keyframes bluepoints {
+        0% { fill: #23dff5; opacity:0.3;}
+        40% { fill: #924bfe; opacity:1;}
+        60% { fill: #23dff5; opacity:0.3;}
+        100% { fill: #23dff5; opacity:0.3;}
+      }
+      @-o-keyframes bluepoints {
+        0% { fill: #23dff5; opacity:0.3;}
+        40% { fill: #924bfe; opacity:1;}
+        60% { fill: #23dff5; opacity:0.3;}
+        100% { fill: #23dff5; opacity:0.3;}
+      }
+      @keyframes bluepoints {
+        0% { fill: #23dff5; opacity:0.3;}
+        40% { fill: #924bfe; opacity:1;}
+        60% { fill: #23dff5; opacity:0.3;}
+        100% { fill: #23dff5; opacity:0.3;}
+      }
+      
+      @-webkit-keyframes bluepoints2 {
+        0% { fill: #1890ff; opacity:1;}
+        40% { fill: #23dff5; opacity:0.3;}
+        60% { fill: #1890ff; opacity:1;}
+        100% { fill: #1890ff; opacity:1;}
+      }
+      @-moz-keyframes bluepoints2 {
+        0% { fill: #1890ff; opacity:1;}
+        40% { fill: #23dff5; opacity:0.3;}
+        60% { fill: #1890ff; opacity:1;}
+        100% { fill: #1890ff; opacity:1;}
+      }
+      @-ms-keyframes bluepoints2 {
+        0% { fill: #1890ff; opacity:1;}
+        40% { fill: #23dff5; opacity:0.3;}
+        60% { fill: #1890ff; opacity:1;}
+        100% { fill: #1890ff; opacity:1;}
+      }
+      @-o-keyframes bluepoints2 {
+        0% { fill: #1890ff; opacity:1;}
+        40% { fill: #23dff5; opacity:0.3;}
+        60% { fill: #1890ff; opacity:1;}
+        100% { fill: #1890ff; opacity:1;}
+      }
+      @keyframes bluepoints2 {
+        0% { fill: #1890ff; opacity:1;}
+        40% { fill: #23dff5; opacity:0.3;}
+        60% { fill: #1890ff; opacity:1;}
+        100% { fill: #1890ff; opacity:1;}
+      }
+      
+      @-webkit-keyframes yellowpoints {
+        0% { fill: #fbac37; opacity:0.5;}
+        40% { fill: #99ff00; opacity:1;}
+        60% { fill: #fbac37; opacity:0.5;}
+        100% { fill: #fbac37; opacity:0.5;}
+      }
+      @-moz-keyframes yellowpoints {
+         0% { fill: #fbac37; opacity:0.5;}
+        40% { fill: #99ff00; opacity:1;}
+        60% { fill: #fbac37; opacity:0.5;}
+        100% { fill: #fbac37; opacity:0.5;}
+      }
+      @-ms-keyframes yellowpoints {
+        0% { fill: #fbac37; opacity:0.5;}
+        40% { fill: #99ff00; opacity:1;}
+        60% { fill: #fbac37; opacity:0.5;}
+        100% { fill: #fbac37; opacity:0.5;}
+      }
+      @-o-keyframes yellowpoints {
+        0% { fill: #fbac37; opacity:0.5;}
+        40% { fill: #99ff00; opacity:1;}
+        60% { fill: #fbac37; opacity:0.5;}
+        100% { fill: #fbac37; opacity:0.5;}
+      }
+      @keyframes yellowpoints {
+        0% { fill: #fbac37; opacity:0.5;}
+        40% { fill: #99ff00; opacity:1;}
+        60% { fill: #fbac37; opacity:0.5;}
+        100% { fill: #fbac37; opacity:0.5;}
+      }
+
+      @-webkit-keyframes yellowpoints2 {
+        0% { fill: #d4840e; opacity:1;}
+        40% { fill: #fbac37; opacity:0.3;}
+        60% { fill: #d4840e; opacity:1;}
+        100% { fill: #d4840e7; opacity:1;}
+      }
+      @-moz-keyframes yellowpoints2 {
+        0% { fill: #d4840e; opacity:1;}
+        40% { fill: #fbac37; opacity:0.3;}
+        60% { fill: #d4840e; opacity:1;}
+        100% { fill: #d4840e7; opacity:1;}
+      }
+      @-ms-keyframes yellowpoints2 {
+        0% { fill: #d4840e; opacity:1;}
+        40% { fill: #fbac37; opacity:0.3;}
+        60% { fill: #d4840e; opacity:1;}
+        100% { fill: #d4840e7; opacity:1;}
+      }
+      @-o-keyframes yellowpoints2 {
+        0% { fill: #d4840e; opacity:1;}
+        40% { fill: #fbac37; opacity:0.3;}
+        60% { fill: #d4840e; opacity:1;}
+        100% { fill: #d4840e7; opacity:1;}
+      }
+      @keyframes yellowpoints2 {
+        0% { fill: #d4840e; opacity:1;}
+        40% { fill: #fbac37; opacity:0.3;}
+        60% { fill: #d4840e; opacity:1;}
+        100% { fill: #d4840e7; opacity:1;}
+      }
+    </style>
+  </defs>
+  <!--<image id="图层_626" data-name="图层 626" width="1316" height="737" xlink:href="data:img/png;base64,xxxx"/>-->
+  <g id="pointsblue">
+    <circle id="point_拷贝" data-name="point 拷贝" class="cls-1" cx="1030" cy="408" r="2"/>
+    <circle id="point_拷贝_2" data-name="point 拷贝 2" class="cls-1" cx="1035" cy="412" r="2"/>
+    <circle id="point_拷贝_3" data-name="point 拷贝 3" class="cls-1" cx="1038" cy="418" r="2"/>
+    <circle id="point_拷贝_4" data-name="point 拷贝 4" class="cls-1" cx="1038" cy="425" r="2"/>
+    <circle id="point_拷贝_5" data-name="point 拷贝 5" class="cls-1" cx="1037" cy="432" r="2"/>
+    <circle id="point_拷贝_6" data-name="point 拷贝 6" class="cls-1" cx="1035" cy="439" r="2"/>
+    <circle id="point_拷贝_7" data-name="point 拷贝 7" class="cls-1" cx="1031" cy="445" r="2"/>
+    <circle id="point_拷贝_8" data-name="point 拷贝 8" class="cls-1" cx="1025" cy="450" r="2"/>
+    <circle id="point_拷贝_9" data-name="point 拷贝 9" class="cls-1" cx="1019" cy="452" r="2"/>
+    <circle id="point_拷贝_10" data-name="point 拷贝 10" class="cls-1" cx="1012" cy="453" r="2"/>
+    <circle id="point_拷贝_11" data-name="point 拷贝 11" class="cls-1" cx="1005" cy="452" r="2"/>
+    <circle id="point_拷贝_12" data-name="point 拷贝 12" class="cls-1" cx="1000" cy="449" r="2"/>
+    <circle id="point_拷贝_13" data-name="point 拷贝 13" class="cls-1" cx="996" cy="479" r="2"/>
+    <circle id="point_拷贝_14" data-name="point 拷贝 14" class="cls-1" cx="990" cy="479" r="2"/>
+    <circle id="point_拷贝_15" data-name="point 拷贝 15" class="cls-1" cx="985" cy="479" r="2"/>
+    <circle id="point_拷贝_16" data-name="point 拷贝 16" class="cls-1" cx="980" cy="479" r="2"/>
+    <circle id="point_拷贝_17" data-name="point 拷贝 17" class="cls-1" cx="975" cy="479" r="2"/>
+    <circle id="point_拷贝_18" data-name="point 拷贝 18" class="cls-1" cx="970" cy="479" r="2"/>
+    <circle id="point_拷贝_19" data-name="point 拷贝 19" class="cls-1" cx="968" cy="479" r="2"/>
+    <circle id="point_拷贝_20" data-name="point 拷贝 20" class="cls-1" cx="972" cy="479" r="2"/>
+    <circle id="point_拷贝_21" data-name="point 拷贝 21" class="cls-1" cx="977" cy="479" r="2"/>
+    <circle id="point_拷贝_22" data-name="point 拷贝 22" class="cls-1" cx="981" cy="479" r="2"/>
+    <circle id="point_拷贝_23" data-name="point 拷贝 23" class="cls-1" cx="987" cy="479" r="2"/>
+    <circle id="point_拷贝_24" data-name="point 拷贝 24" class="cls-1" cx="993" cy="479" r="2"/>
+    <circle id="point_拷贝_25" data-name="point 拷贝 25" class="cls-1" cx="1000" cy="479" r="2"/>
+    <circle id="point_拷贝_26" data-name="point 拷贝 26" class="cls-1" cx="1005" cy="479" r="2"/>
+    <circle id="point_拷贝_27" data-name="point 拷贝 27" class="cls-1" cx="1010" cy="479" r="2"/>
+    <circle id="point_拷贝_28" data-name="point 拷贝 28" class="cls-1" cx="1014" cy="479" r="2"/>
+    <circle id="point_拷贝_29" data-name="point 拷贝 29" class="cls-1" cx="1019" cy="479" r="2"/>
+    <circle id="point_拷贝_30" data-name="point 拷贝 30" class="cls-1" cx="1023" cy="479" r="2"/>
+    <circle id="point_拷贝_31" data-name="point 拷贝 31" class="cls-1" cx="1026" cy="479" r="2"/>
+    <circle id="point_拷贝_32" data-name="point 拷贝 32" class="cls-1" cx="1030" cy="479" r="2"/>
+    <circle id="point_拷贝_33" data-name="point 拷贝 33" class="cls-1" cx="1033" cy="479" r="2"/>
+    <circle id="point_拷贝_34" data-name="point 拷贝 34" class="cls-1" cx="1036" cy="479" r="2"/>
+    <circle id="point_拷贝_35" data-name="point 拷贝 35" class="cls-1" cx="1038" cy="479" r="2"/>
+    <circle id="point_拷贝_36" data-name="point 拷贝 36" class="cls-1" cx="1040" cy="479" r="2"/>
+    <circle id="point_拷贝_37" data-name="point 拷贝 37" class="cls-1" cx="1040" cy="479" r="2"/>
+    <circle id="point_拷贝_38" data-name="point 拷贝 38" class="cls-1" cx="1042" cy="479" r="2"/>
+    <circle id="point_拷贝_39" data-name="point 拷贝 39" class="cls-1" cx="1042" cy="479" r="2"/>
+    <circle id="point_拷贝_40" data-name="point 拷贝 40" class="cls-1" cx="1041" cy="479" r="2"/>
+    <circle id="point_拷贝_41" data-name="point 拷贝 41" class="cls-1" cx="1041" cy="479" r="2"/>
+    <circle id="point_拷贝_42" data-name="point 拷贝 42" class="cls-1" cx="1040" cy="479" r="2"/>
+    <circle id="point_拷贝_43" data-name="point 拷贝 43" class="cls-1" cx="1039" cy="479" r="2"/>
+    <circle id="point_拷贝_44" data-name="point 拷贝 44" class="cls-1" cx="1037" cy="479" r="2"/>
+    <circle id="point_拷贝_45" data-name="point 拷贝 45" class="cls-1" cx="1035" cy="479" r="2"/>
+    <circle id="point_拷贝_46" data-name="point 拷贝 46" class="cls-1" cx="1033" cy="479" r="2"/>
+    <circle id="point_拷贝_47" data-name="point 拷贝 47" class="cls-1" cx="1029" cy="479" r="2"/>
+    <circle id="point_拷贝_48" data-name="point 拷贝 48" class="cls-1" cx="1025" cy="479" r="2"/>
+    <circle id="point_拷贝_49" data-name="point 拷贝 49" class="cls-1" cx="1021" cy="479" r="2"/>
+    <circle id="point_拷贝_50" data-name="point 拷贝 50" class="cls-1" cx="1016" cy="479" r="2"/>
+    <circle id="point_拷贝_51" data-name="point 拷贝 51" class="cls-1" cx="1010" cy="479" r="2"/>
+    <circle id="point_拷贝_52" data-name="point 拷贝 52" class="cls-1" cx="1004" cy="479" r="2"/>
+    <circle id="point_拷贝_53" data-name="point 拷贝 53" class="cls-1" cx="997" cy="479" r="2"/>
+    <circle id="point_拷贝_54" data-name="point 拷贝 54" class="cls-1" cx="990" cy="479" r="2"/>
+    <circle id="point_拷贝_55" data-name="point 拷贝 55" class="cls-1" cx="983" cy="479" r="2"/>
+    <circle id="point_拷贝_56" data-name="point 拷贝 56" class="cls-1" cx="976" cy="479" r="2"/>
+    <circle id="point_拷贝_57" data-name="point 拷贝 57" class="cls-1" cx="971" cy="479" r="2"/>
+    <circle id="point_拷贝_58" data-name="point 拷贝 58" class="cls-1" cx="966" cy="479" r="2"/>
+    <circle id="point_拷贝_59" data-name="point 拷贝 59" class="cls-1" cx="964" cy="479" r="2"/>
+    <circle id="point_拷贝_60" data-name="point 拷贝 60" class="cls-1" cx="969" cy="479" r="2"/>
+    <circle id="point_拷贝_61" data-name="point 拷贝 61" class="cls-1" cx="974" cy="479" r="2"/>
+    <circle id="point_拷贝_62" data-name="point 拷贝 62" class="cls-1" cx="978" cy="479" r="2"/>
+    <circle id="point_拷贝_63" data-name="point 拷贝 63" class="cls-1" cx="983" cy="479" r="2"/>
+    <circle id="point_拷贝_64" data-name="point 拷贝 64" class="cls-1" cx="988" cy="479" r="2"/>
+    <circle id="point_拷贝_65" data-name="point 拷贝 65" class="cls-1" cx="992" cy="479" r="2"/>
+    <circle id="point_拷贝_66" data-name="point 拷贝 66" class="cls-1" cx="997" cy="479" r="2"/>
+    <circle id="point_拷贝_67" data-name="point 拷贝 67" class="cls-1" cx="999" cy="479" r="2"/>
+    <circle id="point_拷贝_68" data-name="point 拷贝 68" class="cls-1" cx="1000" cy="479" r="2"/>
+    <circle id="point_拷贝_69" data-name="point 拷贝 69" class="cls-1" cx="997" cy="479" r="2"/>
+    <circle id="point_拷贝_70" data-name="point 拷贝 70" class="cls-1" cx="992" cy="479" r="2"/>
+    <circle id="point_拷贝_71" data-name="point 拷贝 71" class="cls-1" cx="992" cy="479" r="2"/>
+    <circle id="point_拷贝_72" data-name="point 拷贝 72" class="cls-1" cx="960" cy="479" r="2"/>
+    <circle id="point_拷贝_73" data-name="point 拷贝 73" class="cls-1" cx="956" cy="479" r="2"/>
+    <circle id="point_拷贝_74" data-name="point 拷贝 74" class="cls-1" cx="954" cy="479" r="2"/>
+    <circle id="point_拷贝_75" data-name="point 拷贝 75" class="cls-1" cx="951" cy="479" r="2"/>
+    <circle id="point_拷贝_76" data-name="point 拷贝 76" class="cls-1" cx="948" cy="479" r="2"/>
+    <circle id="point_拷贝_77" data-name="point 拷贝 77" class="cls-1" cx="944" cy="479" r="2"/>
+    <circle id="point_拷贝_78" data-name="point 拷贝 78" class="cls-1" cx="939" cy="479" r="2"/>
+    <circle id="point_拷贝_79" data-name="point 拷贝 79" class="cls-1" cx="933" cy="479" r="2"/>
+    <circle id="point_拷贝_80" data-name="point 拷贝 80" class="cls-1" cx="928" cy="479" r="2"/>
+    <circle id="point_拷贝_81" data-name="point 拷贝 81" class="cls-1" cx="922" cy="479" r="2"/>
+    <circle id="point_拷贝_82" data-name="point 拷贝 82" class="cls-1" cx="915" cy="479" r="2"/>
+    <circle id="point_拷贝_83" data-name="point 拷贝 83" class="cls-1" cx="909" cy="479" r="2"/>
+    <circle id="point_拷贝_84" data-name="point 拷贝 84" class="cls-1" cx="901" cy="479" r="2"/>
+    <circle id="point_拷贝_85" data-name="point 拷贝 85" class="cls-1" cx="894" cy="479" r="2"/>
+    <circle id="point_拷贝_86" data-name="point 拷贝 86" class="cls-1" cx="887" cy="479" r="2"/>
+    <circle id="point_拷贝_87" data-name="point 拷贝 87" class="cls-1" cx="880" cy="479" r="2"/>
+    <circle id="point_拷贝_88" data-name="point 拷贝 88" class="cls-1" cx="874" cy="479" r="2"/>
+    <circle id="point_拷贝_89" data-name="point 拷贝 89" class="cls-1" cx="868" cy="479" r="2"/>
+    <circle id="point_拷贝_90" data-name="point 拷贝 90" class="cls-1" cx="861" cy="479" r="2"/>
+    <circle id="point_拷贝_91" data-name="point 拷贝 91" class="cls-1" cx="855" cy="479" r="2"/>
+    <circle id="point_拷贝_92" data-name="point 拷贝 92" class="cls-1" cx="849" cy="479" r="2"/>
+    <circle id="point_拷贝_93" data-name="point 拷贝 93" class="cls-1" cx="843" cy="479" r="2"/>
+    <circle id="point_拷贝_94" data-name="point 拷贝 94" class="cls-1" cx="836" cy="479" r="2"/>
+    <circle id="point_拷贝_95" data-name="point 拷贝 95" class="cls-1" cx="830" cy="479" r="2"/>
+    <circle id="point_拷贝_96" data-name="point 拷贝 96" class="cls-1" cx="823" cy="479" r="2"/>
+    <circle id="point_拷贝_97" data-name="point 拷贝 97" class="cls-1" cx="816" cy="479" r="2"/>
+    <circle id="point_拷贝_98" data-name="point 拷贝 98" class="cls-1" cx="809" cy="479" r="2"/>
+    <circle id="point_拷贝_99" data-name="point 拷贝 99" class="cls-1" cx="802" cy="479" r="2"/>
+    <circle id="point_拷贝_100" data-name="point 拷贝 100" class="cls-1" cx="795" cy="479" r="2"/>
+    <circle id="point_拷贝_101" data-name="point 拷贝 101" class="cls-1" cx="788" cy="479" r="2"/>
+    <circle id="point_拷贝_102" data-name="point 拷贝 102" class="cls-1" cx="781" cy="479" r="2"/>
+    <circle id="point_拷贝_103" data-name="point 拷贝 103" class="cls-1" cx="774" cy="479" r="2"/>
+    <circle id="point_拷贝_104" data-name="point 拷贝 104" class="cls-1" cx="768" cy="479" r="2"/>
+    <circle id="point_拷贝_105" data-name="point 拷贝 105" class="cls-1" cx="763" cy="479" r="2"/>
+    <circle id="point_拷贝_106" data-name="point 拷贝 106" class="cls-1" cx="759" cy="479" r="2"/>
+    <circle id="point_拷贝_107" data-name="point 拷贝 107" class="cls-1" cx="758" cy="479" r="2"/>
+    <circle id="point_拷贝_108" data-name="point 拷贝 108" class="cls-1" cx="757" cy="479" r="2"/>
+    <circle id="point_拷贝_109" data-name="point 拷贝 109" class="cls-1" cx="757" cy="479" r="2"/>
+    <circle id="point_拷贝_110" data-name="point 拷贝 110" class="cls-1" cx="758" cy="479" r="2"/>
+    <circle id="point_拷贝_111" data-name="point 拷贝 111" class="cls-1" cx="759" cy="479" r="2"/>
+    <circle id="point_拷贝_112" data-name="point 拷贝 112" class="cls-1" cx="759" cy="479" r="2"/>
+    <circle id="point_拷贝_113" data-name="point 拷贝 113" class="cls-1" cx="759" cy="479" r="2"/>
+    <circle id="point_拷贝_114" data-name="point 拷贝 114" class="cls-1" cx="760" cy="479" r="2"/>
+    <circle id="point_拷贝_115" data-name="point 拷贝 115" class="cls-1" cx="763" cy="479" r="2"/>
+    <circle id="point_拷贝_116" data-name="point 拷贝 116" class="cls-1" cx="767" cy="479" r="2"/>
+    <circle id="point_拷贝_117" data-name="point 拷贝 117" class="cls-1" cx="773" cy="479" r="2"/>
+    <circle id="point_拷贝_118" data-name="point 拷贝 118" class="cls-1" cx="780" cy="479" r="2"/>
+    <circle id="point_拷贝_119" data-name="point 拷贝 119" class="cls-1" cx="787" cy="479" r="2"/>
+    <circle id="point_拷贝_120" data-name="point 拷贝 120" class="cls-1" cx="795" cy="479" r="2"/>
+    <circle id="point_拷贝_121" data-name="point 拷贝 121" class="cls-1" cx="801" cy="479" r="2"/>
+    <circle id="point_拷贝_122" data-name="point 拷贝 122" class="cls-1" cx="807" cy="479" r="2"/>
+    <circle id="point_拷贝_123" data-name="point 拷贝 123" class="cls-1" cx="813" cy="479" r="2"/>
+    <circle id="point_拷贝_124" data-name="point 拷贝 124" class="cls-1" cx="819" cy="479" r="2"/>
+    <circle id="point_拷贝_125" data-name="point 拷贝 125" class="cls-1" cx="824" cy="479" r="2"/>
+    <circle id="point_拷贝_126" data-name="point 拷贝 126" class="cls-1" cx="829" cy="479" r="2"/>
+    <circle id="point_拷贝_127" data-name="point 拷贝 127" class="cls-1" cx="833" cy="479" r="2"/>
+    <circle id="point_拷贝_128" data-name="point 拷贝 128" class="cls-1" cx="837" cy="479" r="2"/>
+    <circle id="point_拷贝_129" data-name="point 拷贝 129" class="cls-1" cx="840" cy="479" r="2"/>
+    <circle id="point_拷贝_130" data-name="point 拷贝 130" class="cls-1" cx="842" cy="479" r="2"/>
+    <circle id="point_拷贝_131" data-name="point 拷贝 131" class="cls-1" cx="844" cy="479" r="2"/>
+    <circle id="point_拷贝_132" data-name="point 拷贝 132" class="cls-1" cx="846" cy="479" r="2"/>
+    <circle id="point_拷贝_133" data-name="point 拷贝 133" class="cls-1" cx="846" cy="479" r="2"/>
+    <circle id="point_拷贝_134" data-name="point 拷贝 134" class="cls-1" cx="846" cy="479" r="2"/>
+    <circle id="point_拷贝_135" data-name="point 拷贝 135" class="cls-1" cx="846" cy="479" r="2"/>
+    <circle id="point_拷贝_136" data-name="point 拷贝 136" class="cls-1" cx="846" cy="479" r="2"/>
+    <circle id="point_拷贝_137" data-name="point 拷贝 137" class="cls-1" cx="845" cy="479" r="2"/>
+    <circle id="point_拷贝_138" data-name="point 拷贝 138" class="cls-1" cx="843" cy="479" r="2"/>
+    <circle id="point_拷贝_139" data-name="point 拷贝 139" class="cls-1" cx="842" cy="479" r="2"/>
+    <circle id="point_拷贝_140" data-name="point 拷贝 140" class="cls-1" cx="840" cy="479" r="2"/>
+    <circle id="point_拷贝_141" data-name="point 拷贝 141" class="cls-1" cx="838" cy="479" r="2"/>
+    <circle id="point_拷贝_142" data-name="point 拷贝 142" class="cls-1" cx="836" cy="479" r="2"/>
+    <circle id="point_拷贝_143" data-name="point 拷贝 143" class="cls-1" cx="833" cy="479" r="2"/>
+    <circle id="point_拷贝_144" data-name="point 拷贝 144" class="cls-1" cx="833" cy="479" r="2"/>
+    <circle id="point_拷贝_145" data-name="point 拷贝 145" class="cls-1" cx="830" cy="479" r="2"/>
+    <circle id="point_拷贝_146" data-name="point 拷贝 146" class="cls-1" cx="827" cy="479" r="2"/>
+    <circle id="point_拷贝_147" data-name="point 拷贝 147" class="cls-1" cx="824" cy="479" r="2"/>
+    <circle id="point_拷贝_148" data-name="point 拷贝 148" class="cls-1" cx="819" cy="479" r="2"/>
+    <circle id="point_拷贝_149" data-name="point 拷贝 149" class="cls-1" cx="815" cy="479" r="2"/>
+    <circle id="point_拷贝_150" data-name="point 拷贝 150" class="cls-1" cx="818" cy="479" r="2"/>
+    <circle id="point_拷贝_151" data-name="point 拷贝 151" class="cls-1" cx="821" cy="479" r="2"/>
+    <circle id="point_拷贝_152" data-name="point 拷贝 152" class="cls-1" cx="824" cy="479" r="2"/>
+    <circle id="point_拷贝_153" data-name="point 拷贝 153" class="cls-1" cx="827" cy="479" r="2"/>
+    <circle id="point_拷贝_154" data-name="point 拷贝 154" class="cls-1" cx="830" cy="479" r="2"/>
+    <circle id="point_拷贝_155" data-name="point 拷贝 155" class="cls-1" cx="833" cy="479" r="2"/>
+    <circle id="point_拷贝_156" data-name="point 拷贝 156" class="cls-1" cx="836" cy="479" r="2"/>
+    <circle id="point_拷贝_157" data-name="point 拷贝 157" class="cls-1" cx="839" cy="479" r="2"/>
+    <circle id="point_拷贝_158" data-name="point 拷贝 158" class="cls-1" cx="842" cy="479" r="2"/>
+    <circle id="point_拷贝_159" data-name="point 拷贝 159" class="cls-1" cx="845" cy="479" r="2"/>
+    <circle id="point_拷贝_160" data-name="point 拷贝 160" class="cls-1" cx="848" cy="479" r="2"/>
+    <circle id="point_拷贝_161" data-name="point 拷贝 161" class="cls-1" cx="850" cy="479" r="2"/>
+    <circle id="point_拷贝_162" data-name="point 拷贝 162" class="cls-1" cx="852" cy="479" r="2"/>
+    <circle id="point_拷贝_163" data-name="point 拷贝 163" class="cls-1" cx="854" cy="479" r="2"/>
+    <circle id="point_拷贝_164" data-name="point 拷贝 164" class="cls-1" cx="856" cy="479" r="2"/>
+    <circle id="point_拷贝_165" data-name="point 拷贝 165" class="cls-1" cx="858" cy="479" r="2"/>
+    <circle id="point_拷贝_166" data-name="point 拷贝 166" class="cls-1" cx="859" cy="479" r="2"/>
+    <circle id="point_拷贝_167" data-name="point 拷贝 167" class="cls-1" cx="861" cy="479" r="2"/>
+    <circle id="point_拷贝_168" data-name="point 拷贝 168" class="cls-1" cx="862" cy="479" r="2"/>
+    <circle id="point_拷贝_169" data-name="point 拷贝 169" class="cls-1" cx="863" cy="479" r="2"/>
+    <circle id="point_拷贝_170" data-name="point 拷贝 170" class="cls-1" cx="863" cy="479" r="2"/>
+    <circle id="point_拷贝_171" data-name="point 拷贝 171" class="cls-1" cx="863" cy="479" r="2"/>
+    <circle id="point_拷贝_172" data-name="point 拷贝 172" class="cls-1" cx="863" cy="479" r="2"/>
+    <circle id="point_拷贝_173" data-name="point 拷贝 173" class="cls-1" cx="862" cy="479" r="2"/>
+    <circle id="point_拷贝_174" data-name="point 拷贝 174" class="cls-1" cx="861" cy="479" r="2"/>
+    <circle id="point_拷贝_175" data-name="point 拷贝 175" class="cls-1" cx="861" cy="479" r="2"/>
+    <circle id="point_拷贝_176" data-name="point 拷贝 176" class="cls-1" cx="859" cy="479" r="2"/>
+    <circle id="point_拷贝_177" data-name="point 拷贝 177" class="cls-1" cx="857" cy="479" r="2"/>
+    <circle id="point_拷贝_178" data-name="point 拷贝 178" class="cls-1" cx="854" cy="479" r="2"/>
+    <circle id="point_拷贝_179" data-name="point 拷贝 179" class="cls-1" cx="851" cy="479" r="2"/>
+    <circle id="point_拷贝_180" data-name="point 拷贝 180" class="cls-1" cx="848" cy="479" r="2"/>
+    <circle id="point_拷贝_181" data-name="point 拷贝 181" class="cls-1" cx="844" cy="479" r="2"/>
+    <circle id="point_拷贝_182" data-name="point 拷贝 182" class="cls-1" cx="840" cy="479" r="2"/>
+    <circle id="point_拷贝_183" data-name="point 拷贝 183" class="cls-1" cx="835" cy="479" r="2"/>
+    <circle id="point_拷贝_184" data-name="point 拷贝 184" class="cls-1" cx="829" cy="479" r="2"/>
+    <circle id="point_拷贝_185" data-name="point 拷贝 185" class="cls-1" cx="824" cy="479" r="2"/>
+    <circle id="point_拷贝_186" data-name="point 拷贝 186" class="cls-1" cx="819" cy="479" r="2"/>
+    <circle id="point_拷贝_187" data-name="point 拷贝 187" class="cls-1" cx="812" cy="479" r="2"/>
+    <circle id="point_拷贝_188" data-name="point 拷贝 188" class="cls-1" cx="806" cy="479" r="2"/>
+    <circle id="point_拷贝_189" data-name="point 拷贝 189" class="cls-1" cx="800" cy="479" r="2"/>
+    <circle id="point_拷贝_190" data-name="point 拷贝 190" class="cls-1" cx="794" cy="479" r="2"/>
+    <circle id="point_拷贝_191" data-name="point 拷贝 191" class="cls-1" cx="786" cy="479" r="2"/>
+    <circle id="point_拷贝_192" data-name="point 拷贝 192" class="cls-1" cx="780" cy="479" r="2"/>
+    <circle id="point_拷贝_193" data-name="point 拷贝 193" class="cls-1" cx="773" cy="479" r="2"/>
+    <circle id="point_拷贝_194" data-name="point 拷贝 194" class="cls-1" cx="766" cy="479" r="2"/>
+    <circle id="point_拷贝_195" data-name="point 拷贝 195" class="cls-1" cx="760" cy="479" r="2"/>
+    <circle id="point_拷贝_196" data-name="point 拷贝 196" class="cls-1" cx="752" cy="479" r="2"/>
+    <circle id="point_拷贝_197" data-name="point 拷贝 197" class="cls-1" cx="744" cy="479" r="2"/>
+    <circle id="point_拷贝_198" data-name="point 拷贝 198" class="cls-1" cx="738" cy="479" r="2"/>
+    <circle id="point_拷贝_199" data-name="point 拷贝 199" class="cls-1" cx="731" cy="479" r="2"/>
+    <circle id="point_拷贝_200" data-name="point 拷贝 200" class="cls-1" cx="723" cy="479" r="2"/>
+    <circle id="point_拷贝_201" data-name="point 拷贝 201" class="cls-1" cx="716" cy="479" r="2"/>
+    <circle id="point_拷贝_202" data-name="point 拷贝 202" class="cls-1" cx="709" cy="479" r="2"/>
+    <circle id="point_拷贝_203" data-name="point 拷贝 203" class="cls-1" cx="702" cy="479" r="2"/>
+    <circle id="point_拷贝_204" data-name="point 拷贝 204" class="cls-1" cx="695" cy="479" r="2"/>
+    <circle id="point_拷贝_205" data-name="point 拷贝 205" class="cls-1" cx="688" cy="479" r="2"/>
+    <circle id="point_拷贝_206" data-name="point 拷贝 206" class="cls-1" cx="681" cy="479" r="2"/>
+    <circle id="point_拷贝_207" data-name="point 拷贝 207" class="cls-1" cx="673" cy="479" r="2"/>
+    <circle id="point_拷贝_208" data-name="point 拷贝 208" class="cls-1" cx="666" cy="479" r="2"/>
+    <circle id="point_拷贝_209" data-name="point 拷贝 209" class="cls-1" cx="659" cy="479" r="2"/>
+    <circle id="point_拷贝_210" data-name="point 拷贝 210" class="cls-1" cx="652" cy="479" r="2"/>
+    <circle id="point_拷贝_211" data-name="point 拷贝 211" class="cls-1" cx="645" cy="479" r="2"/>
+    <circle id="point_拷贝_212" data-name="point 拷贝 212" class="cls-1" cx="638" cy="479" r="2"/>
+    <circle id="point_拷贝_213" data-name="point 拷贝 213" class="cls-1" cx="631" cy="479" r="2"/>
+    <circle id="point_拷贝_214" data-name="point 拷贝 214" class="cls-1" cx="624" cy="479" r="2"/>
+    <circle id="point_拷贝_215" data-name="point 拷贝 215" class="cls-1" cx="617" cy="479" r="2"/>
+    <circle id="point_拷贝_216" data-name="point 拷贝 216" class="cls-1" cx="610" cy="479" r="2"/>
+    <circle id="point_拷贝_217" data-name="point 拷贝 217" class="cls-1" cx="602" cy="479" r="2"/>
+    <circle id="point_拷贝_218" data-name="point 拷贝 218" class="cls-1" cx="596" cy="479" r="2"/>
+    <circle id="point_拷贝_219" data-name="point 拷贝 219" class="cls-1" cx="588" cy="479" r="2"/>
+    <circle id="point_拷贝_220" data-name="point 拷贝 220" class="cls-1" cx="581" cy="479" r="2"/>
+    <circle id="point_拷贝_221" data-name="point 拷贝 221" class="cls-1" cx="575" cy="479" r="2"/>
+    <circle id="point_拷贝_222" data-name="point 拷贝 222" class="cls-1" cx="567" cy="479" r="2"/>
+    <circle id="point_拷贝_223" data-name="point 拷贝 223" class="cls-1" cx="560" cy="479" r="2"/>
+    <circle id="point_拷贝_224" data-name="point 拷贝 224" class="cls-1" cx="553" cy="479" r="2"/>
+    <circle id="point_拷贝_225" data-name="point 拷贝 225" class="cls-1" cx="546" cy="479" r="2"/>
+    <circle id="point_拷贝_226" data-name="point 拷贝 226" class="cls-1" cx="539" cy="479" r="2"/>
+    <circle id="point_拷贝_227" data-name="point 拷贝 227" class="cls-1" cx="532" cy="479" r="2"/>
+    <circle id="point_拷贝_228" data-name="point 拷贝 228" class="cls-1" cx="525" cy="479" r="2"/>
+    <circle id="point_拷贝_229" data-name="point 拷贝 229" class="cls-1" cx="518" cy="479" r="2"/>
+    <circle id="point_拷贝_230" data-name="point 拷贝 230" class="cls-1" cx="511" cy="479" r="2"/>
+    <circle id="point_拷贝_231" data-name="point 拷贝 231" class="cls-1" cx="504" cy="479" r="2"/>
+    <circle id="point_拷贝_232" data-name="point 拷贝 232" class="cls-1" cx="497" cy="479" r="2"/>
+    <circle id="point_拷贝_233" data-name="point 拷贝 233" class="cls-1" cx="490" cy="479" r="2"/>
+    <circle id="point_拷贝_234" data-name="point 拷贝 234" class="cls-1" cx="453" cy="479" r="2"/>
+    <circle id="point_拷贝_235" data-name="point 拷贝 235" class="cls-1" cx="442" cy="479" r="2"/>
+    <circle id="point_拷贝_236" data-name="point 拷贝 236" class="cls-1" cx="442" cy="479" r="2"/>
+    <circle id="point_拷贝_237" data-name="point 拷贝 237" class="cls-1" cx="442" cy="479" r="2"/>
+    <circle id="point_拷贝_238" data-name="point 拷贝 238" class="cls-1" cx="442" cy="479" r="2"/>
+    <circle id="point_拷贝_239" data-name="point 拷贝 239" class="cls-1" cx="442" cy="479" r="2"/>
+    <circle id="point_拷贝_240" data-name="point 拷贝 240" class="cls-1" cx="442" cy="479" r="2"/>
+    <circle id="point_拷贝_241" data-name="point 拷贝 241" class="cls-1" cx="435" cy="479" r="2"/>
+    <circle id="point_拷贝_242" data-name="point 拷贝 242" class="cls-1" cx="428" cy="479" r="2"/>
+    <circle id="point_拷贝_243" data-name="point 拷贝 243" class="cls-1" cx="430" cy="479" r="2"/>
+    <circle id="point_拷贝_244" data-name="point 拷贝 244" class="cls-1" cx="436" cy="479" r="2"/>
+    <circle id="point_拷贝_245" data-name="point 拷贝 245" class="cls-1" cx="443" cy="479" r="2"/>
+    <circle id="point_拷贝_246" data-name="point 拷贝 246" class="cls-1" cx="450" cy="479" r="2"/>
+    <circle id="point_拷贝_247" data-name="point 拷贝 247" class="cls-1" cx="457" cy="479" r="2"/>
+    <circle id="point_拷贝_248" data-name="point 拷贝 248" class="cls-1" cx="465" cy="479" r="2"/>
+    <circle id="point_拷贝_249" data-name="point 拷贝 249" class="cls-1" cx="472" cy="479" r="2"/>
+    <circle id="point_拷贝_250" data-name="point 拷贝 250" class="cls-1" cx="478" cy="479" r="2"/>
+    <circle id="point_拷贝_251" data-name="point 拷贝 251" class="cls-1" cx="485" cy="479" r="2"/>
+    <circle id="point_拷贝_252" data-name="point 拷贝 252" class="cls-1" cx="492" cy="479" r="2"/>
+    <circle id="point_拷贝_253" data-name="point 拷贝 253" class="cls-1" cx="499" cy="479" r="2"/>
+    <circle id="point_拷贝_254" data-name="point 拷贝 254" class="cls-1" cx="505" cy="479" r="2"/>
+    <circle id="point_拷贝_255" data-name="point 拷贝 255" class="cls-1" cx="510" cy="479" r="2"/>
+    <circle id="point_拷贝_256" data-name="point 拷贝 256" class="cls-1" cx="515" cy="479" r="2"/>
+    <circle id="point_拷贝_257" data-name="point 拷贝 257" class="cls-1" cx="519" cy="479" r="2"/>
+    <circle id="point_拷贝_258" data-name="point 拷贝 258" class="cls-1" cx="523" cy="479" r="2"/>
+    <circle id="point_拷贝_259" data-name="point 拷贝 259" class="cls-1" cx="500" cy="479" r="2"/>
+    <circle id="point_拷贝_260" data-name="point 拷贝 260" class="cls-1" cx="480" cy="479" r="2"/>
+    <circle id="point_拷贝_261" data-name="point 拷贝 261" class="cls-1" cx="460" cy="479" r="2"/>
+    <circle id="point_拷贝_262" data-name="point 拷贝 262" class="cls-1" cx="440" cy="479" r="2"/>
+    <circle id="point_拷贝_263" data-name="point 拷贝 263" class="cls-1" cx="420" cy="479" r="2"/>
+    <circle id="point_拷贝_264" data-name="point 拷贝 264" class="cls-1" cx="400" cy="479" r="2"/>
+    <circle id="point_拷贝_265" data-name="point 拷贝 265" class="cls-1" cx="380" cy="479" r="2"/>
+    <circle id="point_拷贝_266" data-name="point 拷贝 266" class="cls-1" cx="360" cy="479" r="2"/>
+    <circle id="point_拷贝_267" data-name="point 拷贝 267" class="cls-1" cx="340" cy="479" r="2"/>
+    <circle id="point_拷贝_268" data-name="point 拷贝 268" class="cls-1" cx="320" cy="479" r="2"/>
+    <circle id="point_拷贝_269" data-name="point 拷贝 269" class="cls-1" cx="300" cy="479" r="2"/>
+    <circle id="point_拷贝_270" data-name="point 拷贝 270" class="cls-1" cx="280" cy="479" r="2"/>
+    <circle id="point_拷贝_271" data-name="point 拷贝 271" class="cls-1" cx="270" cy="479" r="2"/>
+    <circle id="point_拷贝_272" data-name="point 拷贝 272" class="cls-1" cx="260" cy="479" r="2"/>
+    <circle id="point_拷贝_273" data-name="point 拷贝 273" class="cls-1" cx="250" cy="479" r="2"/>
+    <circle id="point_拷贝_274" data-name="point 拷贝 274" class="cls-1" cx="240" cy="479" r="2"/>
+    <circle id="point_拷贝_275" data-name="point 拷贝 275" class="cls-1" cx="230" cy="479" r="2"/>
+    <circle id="point_拷贝_276" data-name="point 拷贝 276" class="cls-1" cx="220" cy="479" r="2"/>
+    <circle id="point_拷贝_277" data-name="point 拷贝 277" class="cls-1" cx="210" cy="479" r="2"/>
+    <circle id="point_拷贝_278" data-name="point 拷贝 278" class="cls-1" cx="200" cy="479" r="2"/>
+    <circle id="point_拷贝_279" data-name="point 拷贝 279" class="cls-1" cx="190" cy="479" r="2"/>
+    <circle id="point_拷贝_280" data-name="point 拷贝 280" class="cls-1" cx="180" cy="479" r="2"/>
+    <circle id="point_拷贝_281" data-name="point 拷贝 281" class="cls-1" cx="170" cy="479" r="2"/>
+    <circle id="point_拷贝_282" data-name="point 拷贝 282" class="cls-1" cx="160" cy="479" r="2"/>
+    <circle id="point_拷贝_283" data-name="point 拷贝 283" class="cls-1" cx="150" cy="479" r="2"/>
+    <circle id="point_拷贝_284" data-name="point 拷贝 284" class="cls-1" cx="140" cy="479" r="2"/>
+    <circle id="point_拷贝_285" data-name="point 拷贝 285" class="cls-1" cx="129" cy="479" r="2"/>
+    <circle id="point_拷贝_286" data-name="point 拷贝 286" class="cls-1" cx="129" cy="473" r="2"/>
+    <circle id="point_拷贝_287" data-name="point 拷贝 287" class="cls-1" cx="129" cy="467" r="2"/>
+    <circle id="point_拷贝_288" data-name="point 拷贝 288" class="cls-1" cx="129" cy="461" r="2"/>
+    <circle id="point_拷贝_289" data-name="point 拷贝 289" class="cls-1" cx="129" cy="454" r="2"/>
+    <circle id="point_拷贝_290" data-name="point 拷贝 290" class="cls-1" cx="129" cy="448" r="2"/>
+    <circle id="point_拷贝_291" data-name="point 拷贝 291" class="cls-1" cx="129" cy="442" r="2"/>
+    <circle id="point_拷贝_292" data-name="point 拷贝 292" class="cls-1" cx="129" cy="436" r="2"/>
+    <circle id="point_拷贝_293" data-name="point 拷贝 293" class="cls-1" cx="129" cy="430" r="2"/>
+    <circle id="point_拷贝_294" data-name="point 拷贝 294" class="cls-1" cx="129" cy="424" r="2"/>
+    <circle id="point_拷贝_295" data-name="point 拷贝 295" class="cls-1" cx="129" cy="418" r="2"/>
+    <circle id="point_拷贝_296" data-name="point 拷贝 296" class="cls-1" cx="129" cy="412" r="2"/>
+    <circle id="point_拷贝_297" data-name="point 拷贝 297" class="cls-1" cx="129" cy="406" r="2"/>
+    <circle id="point_拷贝_298" data-name="point 拷贝 298" class="cls-1" cx="129" cy="400" r="2"/>
+    <circle id="point_拷贝_299" data-name="point 拷贝 299" class="cls-1" cx="129" cy="394" r="2"/>
+    <circle id="point_拷贝_300" data-name="point 拷贝 300" class="cls-1" cx="129" cy="388" r="2"/>
+    <circle id="point_拷贝_301" data-name="point 拷贝 301" class="cls-1" cx="129" cy="382" r="2"/>
+    <circle id="point_拷贝_302" data-name="point 拷贝 302" class="cls-1" cx="129" cy="374" r="2"/>
+    <circle id="point_拷贝_303" data-name="point 拷贝 303" class="cls-1" cx="129" cy="367" r="2"/>
+    <circle id="point_拷贝_304" data-name="point 拷贝 304" class="cls-1" cx="129" cy="361" r="2"/>
+    <circle id="point_拷贝_305" data-name="point 拷贝 305" class="cls-1" cx="129" cy="355" r="2"/>
+    <circle id="point_拷贝_306" data-name="point 拷贝 306" class="cls-1" cx="129" cy="349" r="2"/>
+    <circle id="point_拷贝_307" data-name="point 拷贝 307" class="cls-1" cx="129" cy="342" r="2"/>
+    <circle id="point_拷贝_308" data-name="point 拷贝 308" class="cls-1" cx="129" cy="336" r="2"/>
+    <circle id="point_拷贝_309" data-name="point 拷贝 309" class="cls-1" cx="129" cy="331" r="2"/>
+    <circle id="point_拷贝_310" data-name="point 拷贝 310" class="cls-1" cx="129" cy="326" r="2"/>
+    <circle id="point_拷贝_311" data-name="point 拷贝 311" class="cls-1" cx="129" cy="322" r="2"/>
+    <circle id="point_拷贝_312" data-name="point 拷贝 312" class="cls-1" cx="129" cy="317" r="2"/>
+    <circle id="point_拷贝_313" data-name="point 拷贝 313" class="cls-1" cx="129" cy="312" r="2"/>
+    <circle id="point_拷贝_314" data-name="point 拷贝 314" class="cls-1" cx="129" cy="307" r="2"/>
+    <circle id="point_拷贝_315" data-name="point 拷贝 315" class="cls-1" cx="129" cy="303" r="2"/>
+    <circle id="point_拷贝_316" data-name="point 拷贝 316" class="cls-1" cx="129" cy="297" r="2"/>
+    <circle id="point_拷贝_317" data-name="point 拷贝 317" class="cls-1" cx="129" cy="292" r="2"/>
+    <circle id="point_拷贝_318" data-name="point 拷贝 318" class="cls-1" cx="129" cy="287" r="2"/>
+    <circle id="point_拷贝_319" data-name="point 拷贝 319" class="cls-1" cx="129" cy="282" r="2"/>
+    <circle id="point_拷贝_320" data-name="point 拷贝 320" class="cls-1" cx="129" cy="277" r="2"/>
+    <circle id="point_拷贝_321" data-name="point 拷贝 321" class="cls-1" cx="129" cy="271" r="2"/>
+    <circle id="point_拷贝_322" data-name="point 拷贝 322" class="cls-1" cx="129" cy="267" r="2"/>
+    <circle id="point_拷贝_323" data-name="point 拷贝 323" class="cls-1" cx="129" cy="264" r="2"/>
+    <circle id="point_拷贝_324" data-name="point 拷贝 324" class="cls-1" cx="129" cy="268" r="2"/>
+    <circle id="point_拷贝_325" data-name="point 拷贝 325" class="cls-1" cx="129" cy="274" r="2"/>
+    <circle id="point_拷贝_326" data-name="point 拷贝 326" class="cls-1" cx="129" cy="281" r="2"/>
+    <circle id="point_拷贝_327" data-name="point 拷贝 327" class="cls-1" cx="129" cy="284" r="2"/>
+    <circle id="point_拷贝_328" data-name="point 拷贝 328" class="cls-1" cx="129" cy="284" r="2"/>
+    <circle id="point_拷贝_329" data-name="point 拷贝 329" class="cls-1" cx="129" cy="281" r="2"/>
+    <circle id="point_拷贝_330" data-name="point 拷贝 330" class="cls-1" cx="129" cy="275" r="2"/>
+    <circle id="point_拷贝_331" data-name="point 拷贝 331" class="cls-1" cx="129" cy="269" r="2"/>
+    <circle id="point_拷贝_332" data-name="point 拷贝 332" class="cls-1" cx="129" cy="263" r="2"/>
+    <circle id="point_拷贝_333" data-name="point 拷贝 333" class="cls-1" cx="129" cy="256" r="2"/>
+    <circle id="point_拷贝_334" data-name="point 拷贝 334" class="cls-1" cx="129" cy="248" r="2"/>
+    <circle id="point_拷贝_335" data-name="point 拷贝 335" class="cls-1" cx="129" cy="242" r="2"/>
+    <circle id="point_拷贝_336" data-name="point 拷贝 336" class="cls-1" cx="129" cy="235" r="2"/>
+    <circle id="point_拷贝_337" data-name="point 拷贝 337" class="cls-1" cx="129" cy="228" r="2"/>
+    <circle id="point_拷贝_338" data-name="point 拷贝 338" class="cls-1" cx="129" cy="224" r="2"/>
+    <circle id="point_拷贝_339" data-name="point 拷贝 339" class="cls-1" cx="129" cy="217" r="2"/>
+    <circle id="point_拷贝_340" data-name="point 拷贝 340" class="cls-1" cx="129" cy="212" r="2"/>
+    <circle id="point_拷贝_341" data-name="point 拷贝 341" class="cls-1" cx="129" cy="207" r="2"/>
+    <circle id="point_拷贝_342" data-name="point 拷贝 342" class="cls-1" cx="129" cy="202" r="2"/>
+    <circle id="point_拷贝_343" data-name="point 拷贝 343" class="cls-1" cx="129" cy="198" r="2"/>
+    <circle id="point_拷贝_344" data-name="point 拷贝 344" class="cls-1" cx="129" cy="193" r="2"/>
+    <circle id="point_拷贝_345" data-name="point 拷贝 345" class="cls-1" cx="129" cy="188" r="2"/>
+    <circle id="point_拷贝_346" data-name="point 拷贝 346" class="cls-1" cx="129" cy="183" r="2"/>
+    <circle id="point_拷贝_347" data-name="point 拷贝 347" class="cls-1" cx="129" cy="179" r="2"/>
+    <circle id="point_拷贝_348" data-name="point 拷贝 348" class="cls-1" cx="129" cy="174" r="2"/>
+    <circle id="point_拷贝_349" data-name="point 拷贝 349" class="cls-1" cx="129" cy="169" r="2"/>
+    <circle id="point_拷贝_350" data-name="point 拷贝 350" class="cls-1" cx="129" cy="164" r="2"/>
+    <circle id="point_拷贝_351" data-name="point 拷贝 351" class="cls-1" cx="129" cy="159" r="2"/>
+    <circle id="point_拷贝_352" data-name="point 拷贝 352" class="cls-1" cx="129" cy="154" r="2"/>
+    <circle id="point_拷贝_353" data-name="point 拷贝 353" class="cls-1" cx="129" cy="148" r="2"/>
+    <circle id="point_拷贝_354" data-name="point 拷贝 354" class="cls-1" cx="129" cy="142" r="2"/>
+    <circle id="point_拷贝_355" data-name="point 拷贝 355" class="cls-1" cx="129" cy="137" r="2"/>
+    <circle id="point_拷贝_356" data-name="point 拷贝 356" class="cls-1" cx="129" cy="131" r="2"/>
+    <circle id="point_拷贝_357" data-name="point 拷贝 357" class="cls-1" cx="129" cy="124" r="2"/>
+    <circle id="point_拷贝_358" data-name="point 拷贝 358" class="cls-1" cx="129" cy="118" r="2"/>
+    <circle id="point_拷贝_359" data-name="point 拷贝 359" class="cls-1" cx="129" cy="111" r="2"/>
+    <circle id="point_拷贝_360" data-name="point 拷贝 360" class="cls-1" cx="129" cy="105" r="2"/>
+  </g>
+  <g id="pointsyellow">
+    <circle id="point_拷贝_361" data-name="point 拷贝 361" class="cls-2" cx="129" cy="100" r="2"/>
+    <circle id="point_拷贝_362" data-name="point 拷贝 362" class="cls-2" cx="134" cy="100" r="2"/>
+    <circle id="point_拷贝_363" data-name="point 拷贝 363" class="cls-2" cx="139" cy="100" r="2"/>
+    <circle id="point_拷贝_364" data-name="point 拷贝 364" class="cls-2" cx="146" cy="100" r="2"/>
+    <circle id="point_拷贝_365" data-name="point 拷贝 365" class="cls-2" cx="153" cy="100" r="2"/>
+    <circle id="point_拷贝_366" data-name="point 拷贝 366" class="cls-2" cx="156" cy="100" r="2"/>
+    <circle id="point_拷贝_367" data-name="point 拷贝 367" class="cls-2" cx="158" cy="100" r="2"/>
+    <circle id="point_拷贝_368" data-name="point 拷贝 368" class="cls-2" cx="168" cy="100" r="2"/>
+    <circle id="point_拷贝_369" data-name="point 拷贝 369" class="cls-2" cx="172" cy="100" r="2"/>
+    <circle id="point_拷贝_370" data-name="point 拷贝 370" class="cls-2" cx="188" cy="100" r="2"/>
+    <circle id="point_拷贝_371" data-name="point 拷贝 371" class="cls-2" cx="190" cy="100" r="2"/>
+    <circle id="point_拷贝_372" data-name="point 拷贝 372" class="cls-2" cx="200" cy="100" r="2"/>
+    <circle id="point_拷贝_373" data-name="point 拷贝 373" class="cls-2" cx="210" cy="100" r="2"/>
+    <circle id="point_拷贝_374" data-name="point 拷贝 374" class="cls-2" cx="220" cy="100" r="2"/>
+    <circle id="point_拷贝_375" data-name="point 拷贝 375" class="cls-2" cx="230" cy="100" r="2"/>
+    <circle id="point_拷贝_376" data-name="point 拷贝 376" class="cls-2" cx="240" cy="100" r="2"/>
+    <circle id="point_拷贝_377" data-name="point 拷贝 377" class="cls-2" cx="250" cy="100" r="2"/>
+    <circle id="point_拷贝_378" data-name="point 拷贝 378" class="cls-2" cx="260" cy="100" r="2"/>
+    <circle id="point_拷贝_379" data-name="point 拷贝 379" class="cls-2" cx="270" cy="100" r="2"/>
+    <circle id="point_拷贝_380" data-name="point 拷贝 380" class="cls-2" cx="280" cy="100" r="2"/>
+    <circle id="point_拷贝_381" data-name="point 拷贝 381" class="cls-2" cx="290" cy="100" r="2"/>
+    <circle id="point_拷贝_382" data-name="point 拷贝 382" class="cls-2" cx="300" cy="100" r="2"/>
+    <circle id="point_拷贝_383" data-name="point 拷贝 383" class="cls-2" cx="310" cy="100" r="2"/>
+    <circle id="point_拷贝_384" data-name="point 拷贝 384" class="cls-2" cx="320" cy="100" r="2"/>
+    <circle id="point_拷贝_385" data-name="point 拷贝 385" class="cls-2" cx="330" cy="100" r="2"/>
+    <circle id="point_拷贝_386" data-name="point 拷贝 386" class="cls-2" cx="340" cy="100" r="2"/>
+    <circle id="point_拷贝_387" data-name="point 拷贝 387" class="cls-2" cx="350" cy="100" r="2"/>
+    <circle id="point_拷贝_388" data-name="point 拷贝 388" class="cls-2" cx="360" cy="100" r="2"/>
+    <circle id="point_拷贝_389" data-name="point 拷贝 389" class="cls-2" cx="370" cy="100" r="2"/>
+    <circle id="point_拷贝_390" data-name="point 拷贝 390" class="cls-2" cx="380" cy="100" r="2"/>
+    <circle id="point_拷贝_391" data-name="point 拷贝 391" class="cls-2" cx="390" cy="100" r="2"/>
+    <circle id="point_拷贝_392" data-name="point 拷贝 392" class="cls-2" cx="400" cy="100" r="2"/>
+    <circle id="point_拷贝_393" data-name="point 拷贝 393" class="cls-2" cx="410" cy="100" r="2"/>
+    <circle id="point_拷贝_394" data-name="point 拷贝 394" class="cls-2" cx="420" cy="100" r="2"/>
+    <circle id="point_拷贝_395" data-name="point 拷贝 395" class="cls-2" cx="430" cy="100" r="2"/>
+    <circle id="point_拷贝_396" data-name="point 拷贝 396" class="cls-2" cx="440" cy="100" r="2"/>
+    <circle id="point_拷贝_397" data-name="point 拷贝 397" class="cls-2" cx="450" cy="100" r="2"/>
+    <circle id="point_拷贝_398" data-name="point 拷贝 398" class="cls-2" cx="460" cy="100" r="2"/>
+    <circle id="point_拷贝_399" data-name="point 拷贝 399" class="cls-2" cx="470" cy="100" r="2"/>
+    <circle id="point_拷贝_400" data-name="point 拷贝 400" class="cls-2" cx="480" cy="100" r="2"/>
+    <circle id="point_拷贝_401" data-name="point 拷贝 401" class="cls-2" cx="490" cy="100" r="2"/>
+    <circle id="point_拷贝_402" data-name="point 拷贝 402" class="cls-2" cx="500" cy="100" r="2"/>
+    <circle id="point_拷贝_403" data-name="point 拷贝 403" class="cls-2" cx="510" cy="100" r="2"/>
+    <circle id="point_拷贝_404" data-name="point 拷贝 404" class="cls-2" cx="520" cy="100" r="2"/>
+    <circle id="point_拷贝_405" data-name="point 拷贝 405" class="cls-2" cx="530" cy="100" r="2"/>
+    <circle id="point_拷贝_406" data-name="point 拷贝 406" class="cls-2" cx="535" cy="100" r="2"/>
+    <circle id="point_拷贝_407" data-name="point 拷贝 407" class="cls-2" cx="540" cy="100" r="2"/>
+    <circle id="point_拷贝_408" data-name="point 拷贝 408" class="cls-2" cx="545" cy="100" r="2"/>
+    <circle id="point_拷贝_409" data-name="point 拷贝 409" class="cls-2" cx="550" cy="100" r="2"/>
+    <circle id="point_拷贝_410" data-name="point 拷贝 410" class="cls-2" cx="555" cy="100" r="2"/>
+    <circle id="point_拷贝_411" data-name="point 拷贝 411" class="cls-2" cx="560" cy="100" r="2"/>
+    <circle id="point_拷贝_412" data-name="point 拷贝 412" class="cls-2" cx="565" cy="100" r="2"/>
+    <circle id="point_拷贝_413" data-name="point 拷贝 413" class="cls-2" cx="570" cy="100" r="2"/>
+    <circle id="point_拷贝_414" data-name="point 拷贝 414" class="cls-2" cx="580" cy="100" r="2"/>
+    <circle id="point_拷贝_415" data-name="point 拷贝 415" class="cls-2" cx="590" cy="100" r="2"/>
+    <circle id="point_拷贝_416" data-name="point 拷贝 416" class="cls-2" cx="600" cy="100" r="2"/>
+    <circle id="point_拷贝_417" data-name="point 拷贝 417" class="cls-2" cx="610" cy="100" r="2"/>
+    <circle id="point_拷贝_418" data-name="point 拷贝 418" class="cls-2" cx="620" cy="100" r="2"/>
+    <circle id="point_拷贝_419" data-name="point 拷贝 419" class="cls-2" cx="630" cy="100" r="2"/>
+    <circle id="point_拷贝_420" data-name="point 拷贝 420" class="cls-2" cx="630" cy="100" r="2"/>
+    <circle id="point_拷贝_421" data-name="point 拷贝 421" class="cls-2" cx="650" cy="100" r="2"/>
+    <circle id="point_拷贝_422" data-name="point 拷贝 422" class="cls-2" cx="660" cy="100" r="2"/>
+    <circle id="point_拷贝_423" data-name="point 拷贝 423" class="cls-2" cx="670" cy="100" r="2"/>
+    <circle id="point_拷贝_424" data-name="point 拷贝 424" class="cls-2" cx="680" cy="100" r="2"/>
+    <circle id="point_拷贝_425" data-name="point 拷贝 425" class="cls-2" cx="690" cy="100" r="2"/>
+    <circle id="point_拷贝_426" data-name="point 拷贝 426" class="cls-2" cx="700" cy="100" r="2"/>
+    <circle id="point_拷贝_427" data-name="point 拷贝 427" class="cls-2" cx="710" cy="100" r="2"/>
+    <circle id="point_拷贝_428" data-name="point 拷贝 428" class="cls-2" cx="720" cy="100" r="2"/>
+    <circle id="point_拷贝_429" data-name="point 拷贝 429" class="cls-2" cx="730" cy="100" r="2"/>
+    <circle id="point_拷贝_430" data-name="point 拷贝 430" class="cls-2" cx="740" cy="100" r="2"/>
+    <circle id="point_拷贝_431" data-name="point 拷贝 431" class="cls-2" cx="750" cy="100" r="2"/>
+    <circle id="point_拷贝_432" data-name="point 拷贝 432" class="cls-2" cx="760" cy="100" r="2"/>
+    <circle id="point_拷贝_433" data-name="point 拷贝 433" class="cls-2" cx="770" cy="100" r="2"/>
+    <circle id="point_拷贝_434" data-name="point 拷贝 434" class="cls-2" cx="780" cy="100" r="2"/>
+    <circle id="point_拷贝_435" data-name="point 拷贝 435" class="cls-2" cx="790" cy="100" r="2"/>
+    <circle id="point_拷贝_436" data-name="point 拷贝 436" class="cls-2" cx="800" cy="100" r="2"/>
+    <circle id="point_拷贝_437" data-name="point 拷贝 437" class="cls-2" cx="810" cy="100" r="2"/>
+    <circle id="point_拷贝_438" data-name="point 拷贝 438" class="cls-2" cx="820" cy="100" r="2"/>
+    <circle id="point_拷贝_439" data-name="point 拷贝 439" class="cls-2" cx="830" cy="100" r="2"/>
+    <circle id="point_拷贝_440" data-name="point 拷贝 440" class="cls-2" cx="840" cy="100" r="2"/>
+    <circle id="point_拷贝_441" data-name="point 拷贝 441" class="cls-2" cx="850" cy="100" r="2"/>
+    <circle id="point_拷贝_442" data-name="point 拷贝 442" class="cls-2" cx="860" cy="100" r="2"/>
+    <circle id="point_拷贝_443" data-name="point 拷贝 443" class="cls-2" cx="870" cy="100" r="2"/>
+    <circle id="point_拷贝_444" data-name="point 拷贝 444" class="cls-2" cx="880" cy="100" r="2"/>
+    <circle id="point_拷贝_445" data-name="point 拷贝 445" class="cls-2" cx="890" cy="100" r="2"/>
+    <circle id="point_拷贝_446" data-name="point 拷贝 446" class="cls-2" cx="900" cy="100" r="2"/>
+    <circle id="point_拷贝_447" data-name="point 拷贝 447" class="cls-2" cx="910" cy="100" r="2"/>
+    <circle id="point_拷贝_448" data-name="point 拷贝 448" class="cls-2" cx="920" cy="100" r="2"/>
+    <circle id="point_拷贝_449" data-name="point 拷贝 449" class="cls-2" cx="930" cy="100" r="2"/>
+    <circle id="point_拷贝_450" data-name="point 拷贝 450" class="cls-2" cx="940" cy="100" r="2"/>
+    <circle id="point_拷贝_451" data-name="point 拷贝 451" class="cls-2" cx="950" cy="100" r="2"/>
+    <circle id="point_拷贝_452" data-name="point 拷贝 452" class="cls-2" cx="960" cy="100" r="2"/>
+    <circle id="point_拷贝_453" data-name="point 拷贝 453" class="cls-2" cx="970" cy="100" r="2"/>
+    <circle id="point_拷贝_454" data-name="point 拷贝 454" class="cls-2" cx="980" cy="100" r="2"/>
+    <circle id="point_拷贝_455" data-name="point 拷贝 455" class="cls-2" cx="990" cy="100" r="2"/>
+    <circle id="point_拷贝_456" data-name="point 拷贝 456" class="cls-2" cx="1000" cy="100" r="2"/>
+    <circle id="point_拷贝_457" data-name="point 拷贝 457" class="cls-2" cx="1010" cy="100" r="2"/>
+    <circle id="point_拷贝_458" data-name="point 拷贝 458" class="cls-2" cx="1020" cy="100" r="2"/>
+    <circle id="point_拷贝_459" data-name="point 拷贝 459" class="cls-2" cx="1030" cy="100" r="2"/>
+    <circle id="point_拷贝_460" data-name="point 拷贝 460" class="cls-2" cx="1040" cy="100" r="2"/>
+    <circle id="point_拷贝_461" data-name="point 拷贝 461" class="cls-2" cx="1050" cy="100" r="2"/>
+    <circle id="point_拷贝_462" data-name="point 拷贝 462" class="cls-2" cx="1060" cy="100" r="2"/>
+    <circle id="point_拷贝_463" data-name="point 拷贝 463" class="cls-2" cx="1070" cy="100" r="2"/>
+    <circle id="point_拷贝_464" data-name="point 拷贝 464" class="cls-2" cx="1080" cy="100" r="2"/>
+    <circle id="point_拷贝_465" data-name="point 拷贝 465" class="cls-2" cx="1090" cy="100" r="2"/>
+    <circle id="point_拷贝_466" data-name="point 拷贝 466" class="cls-2" cx="1110" cy="100" r="2"/>
+    <circle id="point_拷贝_467" data-name="point 拷贝 467" class="cls-2" cx="1120" cy="100" r="2"/>
+    <circle id="point_拷贝_468" data-name="point 拷贝 468" class="cls-2" cx="1130" cy="100" r="2"/>
+    <circle id="point_拷贝_469" data-name="point 拷贝 469" class="cls-2" cx="1140" cy="100" r="2"/>
+    <circle id="point_拷贝_470" data-name="point 拷贝 470" class="cls-2" cx="1150" cy="100" r="2"/>
+    <circle id="point_拷贝_471" data-name="point 拷贝 471" class="cls-2" cx="1160" cy="100" r="2"/>
+    <circle id="point_拷贝_472" data-name="point 拷贝 472" class="cls-2" cx="1170" cy="100" r="2"/>
+    <circle id="point_拷贝_473" data-name="point 拷贝 473" class="cls-2" cx="1180" cy="100" r="2"/>
+    <circle id="point_拷贝_474" data-name="point 拷贝 474" class="cls-2" cx="1190" cy="100" r="2"/>
+    <circle id="point_拷贝_475" data-name="point 拷贝 475" class="cls-2" cx="1200" cy="100" r="2"/>
+    <circle id="point_拷贝_476" data-name="point 拷贝 476" class="cls-2" cx="1190" cy="100" r="2"/>
+    <circle id="point_拷贝_477" data-name="point 拷贝 477" class="cls-2" cx="1180" cy="100" r="2"/>
+    <circle id="point_拷贝_478" data-name="point 拷贝 478" class="cls-2" cx="1170" cy="100" r="2"/>
+    <circle id="point_拷贝_479" data-name="point 拷贝 479" class="cls-2" cx="1160" cy="100" r="2"/>
+    <circle id="point_拷贝_480" data-name="point 拷贝 480" class="cls-2" cx="1150" cy="100" r="2"/>
+    <circle id="point_拷贝_481" data-name="point 拷贝 481" class="cls-2" cx="1140" cy="100" r="2"/>
+    <circle id="point_拷贝_482" data-name="point 拷贝 482" class="cls-2" cx="1130" cy="100" r="2"/>
+    <circle id="point_拷贝_483" data-name="point 拷贝 483" class="cls-2" cx="1120" cy="100" r="2"/>
+    <circle id="point_拷贝_484" data-name="point 拷贝 484" class="cls-2" cx="1120" cy="110" r="2"/>
+    <circle id="point_拷贝_485" data-name="point 拷贝 485" class="cls-2" cx="1120" cy="120" r="2"/>
+    <circle id="point_拷贝_486" data-name="point 拷贝 486" class="cls-2" cx="1120" cy="130" r="2"/>
+    <circle id="point_拷贝_487" data-name="point 拷贝 487" class="cls-2" cx="1120" cy="140" r="2"/>
+    <circle id="point_拷贝_488" data-name="point 拷贝 488" class="cls-2" cx="1120" cy="150" r="2"/>
+    <circle id="point_拷贝_489" data-name="point 拷贝 489" class="cls-2" cx="1120" cy="160" r="2"/>
+    <circle id="point_拷贝_490" data-name="point 拷贝 490" class="cls-2" cx="1120" cy="170" r="2"/>
+    <circle id="point_拷贝_491" data-name="point 拷贝 491" class="cls-2" cx="1120" cy="180" r="2"/>
+    <circle id="point_拷贝_492" data-name="point 拷贝 492" class="cls-2" cx="1120" cy="190" r="2"/>
+    <circle id="point_拷贝_493" data-name="point 拷贝 493" class="cls-2" cx="1120" cy="200" r="2"/>
+    <circle id="point_拷贝_494" data-name="point 拷贝 494" class="cls-2" cx="1120" cy="210" r="2"/>
+    <circle id="point_拷贝_495" data-name="point 拷贝 495" class="cls-2" cx="1120" cy="220" r="2"/>
+    <circle id="point_拷贝_496" data-name="point 拷贝 496" class="cls-2" cx="1120" cy="230" r="2"/>
+    <circle id="point_拷贝_497" data-name="point 拷贝 497" class="cls-2" cx="1120" cy="240" r="2"/>
+    <circle id="point_拷贝_498" data-name="point 拷贝 498" class="cls-2" cx="1120" cy="250" r="2"/>
+    <circle id="point_拷贝_499" data-name="point 拷贝 499" class="cls-2" cx="1120" cy="260" r="2"/>
+    <circle id="point_拷贝_500" data-name="point 拷贝 500" class="cls-2" cx="1120" cy="270" r="2"/>
+    <circle id="point_拷贝_501" data-name="point 拷贝 501" class="cls-2" cx="1120" cy="280" r="2"/>
+    <circle id="point_拷贝_502" data-name="point 拷贝 502" class="cls-2" cx="1120" cy="290" r="2"/>
+    <circle id="point_拷贝_503" data-name="point 拷贝 503" class="cls-2" cx="1120" cy="300" r="2"/>
+    <circle id="point_拷贝_504" data-name="point 拷贝 504" class="cls-2" cx="1120" cy="310" r="2"/>
+    <circle id="point_拷贝_505" data-name="point 拷贝 505" class="cls-2" cx="1120" cy="320" r="2"/>
+    <circle id="point_拷贝_506" data-name="point 拷贝 506" class="cls-2" cx="1120" cy="330" r="2"/>
+    <circle id="point_拷贝_507" data-name="point 拷贝 507" class="cls-2" cx="1120" cy="340" r="2"/>
+    <circle id="point_拷贝_508" data-name="point 拷贝 508" class="cls-2" cx="1120" cy="350" r="2"/>
+    <circle id="point_拷贝_509" data-name="point 拷贝 509" class="cls-2" cx="1120" cy="360" r="2"/>
+    <circle id="point_拷贝_510" data-name="point 拷贝 510" class="cls-2" cx="1120" cy="370" r="2"/>
+    <circle id="point_拷贝_511" data-name="point 拷贝 511" class="cls-2" cx="1120" cy="380" r="2"/>
+    <circle id="point_拷贝_512" data-name="point 拷贝 512" class="cls-2" cx="1120" cy="390" r="2"/>
+    <circle id="point_拷贝_513" data-name="point 拷贝 513" class="cls-2" cx="1120" cy="400" r="2"/>
+    <circle id="point_拷贝_514" data-name="point 拷贝 514" class="cls-2" cx="1120" cy="410" r="2"/>
+    <circle id="point_拷贝_515" data-name="point 拷贝 515" class="cls-2" cx="1120" cy="420" r="2"/>
+    <circle id="point_拷贝_516" data-name="point 拷贝 516" class="cls-2" cx="1120" cy="430" r="2"/>
+    <circle id="point_拷贝_517" data-name="point 拷贝 517" class="cls-2" cx="1120" cy="440" r="2"/>
+    <circle id="point_拷贝_518" data-name="point 拷贝 518" class="cls-2" cx="1120" cy="450" r="2"/>
+    <circle id="point_拷贝_519" data-name="point 拷贝 519" class="cls-2" cx="1120" cy="460" r="2"/>
+    <circle id="point_拷贝_520" data-name="point 拷贝 520" class="cls-2" cx="1120" cy="470" r="2"/>
+    <circle id="point_拷贝_521" data-name="point 拷贝 521" class="cls-2" cx="1120" cy="480" r="2"/>
+    <circle id="point_拷贝_522" data-name="point 拷贝 522" class="cls-2" cx="1120" cy="490" r="2"/>
+    <circle id="point_拷贝_523" data-name="point 拷贝 523" class="cls-2" cx="1120" cy="500" r="2"/>
+    <circle id="point_拷贝_524" data-name="point 拷贝 524" class="cls-2" cx="1120" cy="510" r="2"/>
+    <circle id="point_拷贝_525" data-name="point 拷贝 525" class="cls-2" cx="1120" cy="520" r="2"/>
+    <circle id="point_拷贝_526" data-name="point 拷贝 526" class="cls-2" cx="1120" cy="530" r="2"/>
+    <circle id="point_拷贝_527" data-name="point 拷贝 527" class="cls-2" cx="1120" cy="540" r="2"/>
+    <circle id="point_拷贝_528" data-name="point 拷贝 528" class="cls-2" cx="1120" cy="550" r="2"/>
+    <circle id="point_拷贝_529" data-name="point 拷贝 529" class="cls-2" cx="1120" cy="560" r="2"/>
+    <circle id="point_拷贝_530" data-name="point 拷贝 530" class="cls-2" cx="1120" cy="570" r="2"/>
+    <circle id="point_拷贝_531" data-name="point 拷贝 531" class="cls-2" cx="1120" cy="580" r="2"/>
+    <circle id="point_拷贝_532" data-name="point 拷贝 532" class="cls-2" cx="1120" cy="590" r="2"/>
+    <circle id="point_拷贝_533" data-name="point 拷贝 533" class="cls-2" cx="1120" cy="600" r="2"/>
+    <circle id="point_拷贝_534" data-name="point 拷贝 534" class="cls-2" cx="1120" cy="610" r="2"/>
+    <circle id="point_拷贝_535" data-name="point 拷贝 535" class="cls-2" cx="1120" cy="620" r="2"/>
+  </g>
+  <g id="circles">
+    <circle id="circleinner1" class="cls-3" cx="1007" cy="356" r="5"/>
+    <circle id="circleoutter1" class="cls-4" cx="997" cy="326" r="8"/>
+    <circle id="circleinner2" class="cls-3" cx="1066" cy="375" r="5"/>
+    <circle id="circleoutter2" data-name="circleoutter2" class="cls-4" cx="1066" cy="375" r="8"/>
+    <circle id="circleinner3" class="cls-3" cx="1027" cy="386" r="5"/>
+    <circle id="circleoutter3" class="cls-4" cx="1027" cy="386" r="8"/>
+    <circle id="circleinner4" class="cls-3" cx="1022" cy="405" r="5"/>
+    <circle id="circleoutter4" class="cls-4" cx="1022" cy="405" r="8"/>
+    <circle id="circleinner5" class="cls-3" cx="1003" cy="425" r="5"/>
+    <circle id="circleoutter5" class="cls-4" cx="1003" cy="425" r="8"/>
+    <circle id="circleinner6" data-name="circleinner6" class="cls-3" cx="1001" cy="403" r="5"/>
+    <circle id="circleoutter6" class="cls-4" cx="1001" cy="403" r="8"/>
+    <circle id="circleinner7" data-name="circleinner7" class="cls-3" cx="980" cy="402" r="5"/>
+    <circle id="circleoutter7" data-name="circleoutter7" class="cls-4" cx="980" cy="402" r="8"/>
+    <circle id="circleinner8" data-name="circleinner 8" class="cls-3" cx="960" cy="414" r="5"/>
+    <circle id="circleoutter8" data-name="circleoutter 8" class="cls-4" cx="960" cy="414" r="8"/>
+    <circle id="circleinner9" data-name="circleinner 9" class="cls-3" cx="129" cy="475" r="5"/>
+    <circle id="circleoutter9" data-name="circleoutter9" class="cls-4" cx="129" cy="455" r="8"/>
+    <circle id="circleinner10" class="cls-3" cx="129" cy="448" r="5"/>
+    <circle id="circleoutter10" class="cls-4" cx="129" cy="438" r="8"/>
+    <circle id="circleinner11" data-name="circleinner11" class="cls-3" cx="129" cy="428" r="5"/>
+    <circle id="circleoutter11" class="cls-4" cx="129" cy="418" r="8"/>
+    <circle id="circleinner12" class="cls-3" cx="129" cy="405" r="5"/>
+    <circle id="circleoutter12" class="cls-4" cx="129" cy="395" r="8"/>
+    <circle id="circleinner13" data-name="circleinner13" class="cls-3" cx="129" cy="386" r="5"/>
+    <circle id="circleoutter13" class="cls-4" cx="129" cy="366" r="8"/>
+    <circle id="circleinner14" class="cls-3" cx="129" cy="341" r="5"/>
+    <circle id="circleoutter14" data-name="circleoutter14" class="cls-4" cx="129" cy="331" r="8"/>
+    <circle id="circleinner15" class="cls-3" cx="129" cy="177" r="5"/>
+    <circle id="circleoutter15" data-name="circleoutter15" class="cls-4" cx="129" cy="327" r="8"/>
+    <circle id="circleinner16" data-name="circleinner 16" class="cls-3" cx="129" cy="117" r="5"/>
+    <circle id="circleoutter16" class="cls-4" cx="129" cy="107" r="8"/>
+    <circle id="circleinner17" data-name="circleinner17" class="cls-3" cx="253" cy="100" r="5"/>
+    <circle id="circleoutter17" class="cls-4" cx="263" cy="100" r="8"/>
+    <circle id="circleinner18" class="cls-3" cx="325" cy="100" r="5"/>
+    <circle id="circleoutter18" class="cls-4" cx="355" cy="100" r="8"/>
+    <circle id="circleinner19" class="cls-3" cx="363" cy="100" r="5"/>
+    <circle id="circleoutter19" class="cls-4" cx="373" cy="100" r="8"/>
+    <circle id="circleinner20" class="cls-3" cx="396" cy="100" r="5"/>
+    <circle id="circleoutter20" class="cls-4" cx="406" cy="100" r="8"/>
+    <circle id="circleinner21" data-name="circleinner21" class="cls-3" cx="428" cy="100" r="5"/>
+    <circle id="circleoutter21" class="cls-4" cx="448" cy="100" r="8"/>
+    <circle id="circleinner22" class="cls-3" cx="458" cy="100" r="5"/>
+    <circle id="circleoutter22" data-name="circleoutter22" class="cls-4" cx="468" cy="100" r="8"/>
+    <circle id="circleinner23" class="cls-3" cx="483" cy="100" r="5"/>
+    <circle id="circleoutter23" class="cls-4" cx="503" cy="100" r="8"/>
+    <circle id="circleinner24" class="cls-3" cx="554" cy="100" r="5"/>
+    <circle id="circleoutter24" class="cls-4" cx="594" cy="100" r="8"/>
+    <circle id="circleinner25" class="cls-3" cx="622" cy="100" r="5"/>
+    <circle id="circleoutter25" class="cls-4" cx="722" cy="100" r="8"/>
+    <circle id="circleinner26" class="cls-3" cx="777" cy="100" r="5"/>
+    <circle id="circleoutter26" class="cls-4" cx="877" cy="100" r="8"/>
+    <circle id="circleinner27" class="cls-3" cx="923" cy="100" r="5"/>
+    <circle id="circleoutter27" class="cls-4" cx="953" cy="100" r="8"/>
+    <circle id="circleinner28" class="cls-3" cx="968" cy="100" r="5"/>
+    <circle id="circleoutter28" class="cls-4" cx="1200" cy="100" r="8"/>
+    <circle id="circleinner29" class="cls-3" cx="1120" cy="100" r="5"/>
+    <circle id="circleoutter29" class="cls-4" cx="1120" cy="620" r="8"/>
+  </g>
+
+
+  <script type="text/javascript">
+    var pointsblue = document.getElementById('pointsblue');
+    var pointsblueChildren = pointsblue.children;
+    console.log(pointsblueChildren,pointsblueChildren.length)
+    var l = pointsblueChildren.length;
+
+  var pointsblue = document.querySelector('pointsblue'); 
+  var groups1 = document.querySelectorAll('.cls-1');
+  var groups2 = document.querySelectorAll('.cls-2');
+
+  var pointers = [];
+
+  for (var key in groups1) { 
+    console.log(key)
+    if (groups1.hasOwnProperty(key)) { 
+      var element = groups1[key]; 
+      pointers.push(element);
+      (function(element){
+        setTimeout(function(){
+          element.setAttribute('class', 'cls-1 move');
+        },10*key)
+        
+      })(element)
+      console.log(element)  
+
+    } 
+  }
+  for (var key in groups2) { 
+    console.log(key)
+    if (groups2.hasOwnProperty(key)) { 
+      var element = groups2[key]; 
+      pointers.push(element);
+      (function(element){
+        setTimeout(function(){
+          element.setAttribute('class', 'cls-2 move');
+        },10*key)
+        
+      })(element)
+      console.log(element)  
+
+    } 
+  }
+
+  </script>
+
+</svg>
